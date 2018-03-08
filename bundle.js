@@ -30420,7 +30420,7 @@
 	
 	/*
 	* Author: @nayunhwan (github.com/nayunhwan)
-	* Email: nayunhwan.dev@mgail.com
+	* Email: nayunhwan.dev@gmail.com
 	*/
 	
 	var initialState = {
@@ -30455,7 +30455,7 @@
 	});
 	/*
 	* Author: @nayunhwan (github.com/nayunhwan)
-	* Email: nayunhwan.dev@mgail.com
+	* Email: nayunhwan.dev@gmail.com
 	*/
 	
 	var DefaultAction = {
@@ -30499,7 +30499,7 @@
 	exports = module.exports = __webpack_require__(397)();
 	exports.push([module.id, "@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);", ""]);
 	exports.push([module.id, "@import url(https://cdn.rawgit.com/kattergil/NotoSerifKR-Web/76eb9ebf/stylesheet/NotoSerif-Web.css);", ""]);
-	exports.push([module.id, "/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@mgail.com\n*/\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@mgail.com\n*/\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@mgail.com\n*/\n\n\n.editorPage__content {\n  padding: 0 2rem;\n  padding-top: 80px;\n  padding-bottom: 10rem;\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n  .editorPage__content__editor {\n    margin-top: 10rem;\n    width: 1280px; }\n    .editorPage__content__editor__input {\n      width: 100%;\n      border: none; }\n      .editorPage__content__editor__input-title {\n        font-family: \"Noto Serif KR\", serif;\n        font-size: 2rem; }\n      .editorPage__content__editor__input:focus {\n        outline: none; }\n    .editorPage__content__editor__header__author {\n      display: flex;\n      flex-direction: row;\n      align-items: center;\n      margin-bottom: 1rem; }\n      .editorPage__content__editor__header__author__profileImage {\n        width: 32px;\n        height: 32px;\n        border-radius: 50%;\n        margin-right: 1rem; }\n    .editorPage__content__editor__body {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      margin-top: 2rem; }\n      .editorPage__content__editor__body__input {\n        display: inline-block;\n        width: 45%;\n        font-size: 1.2rem;\n        min-height: 500px;\n        border: none;\n        resize: none; }\n        .editorPage__content__editor__body__input:empty:not(:focus):before {\n          content: attr(data-text);\n          color: #9b9b9b; }\n        .editorPage__content__editor__body__input:focus {\n          outline: none; }\n      .editorPage__content__editor__body__viewer {\n        display: inline-block;\n        width: 45%; }\n\n.react-tagsinput {\n  margin-top: 0.5rem; }\n  .react-tagsinput-input {\n    border: none;\n    font-size: 1rem; }\n    .react-tagsinput-input:focus {\n      outline: none; }\n  .react-tagsinput-tag {\n    color: #22d6a0;\n    margin-right: 0.5rem; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@mgail.com\n*/\n.landingPage__content {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  padding: 0 2rem; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@mgail.com\n*/\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@mgail.com\n*/\n.button {\n  color: #d6d8d8;\n  border: 1px solid #d6d8d8;\n  border-radius: 5px;\n  padding: .4rem .75rem;\n  transition: 0.3s;\n  cursor: pointer; }\n  .button i {\n    margin-right: 1rem; }\n  .button:hover {\n    border: 1px solid #22d6a0;\n    color: #22d6a0;\n    transition: 0.3s; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@mgail.com\n*/\n.navigationBar {\n  position: fixed;\n  box-sizing: border-box;\n  width: 100%;\n  background: #ffffff;\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0 10rem;\n  height: 80px; }\n  .navigationBar__logo {\n    font-weight: 700;\n    font-size: 1.4rem;\n    color: #22d6a0; }\n  .navigationBar__items {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    list-style: none;\n    padding: 0; }\n    .navigationBar__items__item {\n      display: inline-block;\n      margin-right: 1rem; }\n      .navigationBar__items__item-clickAble {\n        display: inline-block;\n        padding: 0.25rem 0.5rem;\n        border-radius: 5px;\n        transition: 0.3s;\n        cursor: pointer; }\n        .navigationBar__items__item-clickAble > span {\n          margin-left: 0.5rem; }\n        .navigationBar__items__item-clickAble:hover {\n          background: #e7e9e9;\n          transition: 0.3s; }\n      .navigationBar__items__item__button {\n        color: #d6d8d8;\n        border: 1px solid #d6d8d8;\n        border-radius: 5px;\n        padding: .4rem .75rem;\n        transition: 0.3s; }\n        .navigationBar__items__item__button:hover {\n          border: 1px solid #9b9b9b;\n          color: #9b9b9b;\n          transition: 0.3s; }\n      .navigationBar__items__item__profileImage {\n        width: 32px;\n        height: 32px;\n        border-radius: 50%; }\n      .navigationBar__items__item:last-child {\n        margin-right: 0; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@mgail.com\n*/\n.typingMessage {\n  display: inline-block;\n  font-size: 3rem; }\n  .typingMessage__title {\n    font-family: \"Noto Serif KR\", serif;\n    min-height: 139px; }\n  .typingMessage__subtitle {\n    margin-top: 2rem;\n    font-size: 1.5rem;\n    color: #5b5e6d; }\n    .typingMessage__subtitle__highlight {\n      font-weight: 700;\n      color: #22d6a0; }\n\nbody {\n  font-family: 'Noto Sans KR', sans-serif;\n  color: #282828;\n  margin: 0 auto; }\n\na {\n  color: inherit;\n  text-decoration: none; }\n", ""]);
+	exports.push([module.id, "/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n\n\n.editorPage__content {\n  padding: 0 2rem;\n  padding-top: 80px;\n  padding-bottom: 10rem;\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n  .editorPage__content__editor {\n    margin-top: 10rem;\n    width: 1280px; }\n    .editorPage__content__editor__input {\n      width: 100%;\n      border: none; }\n      .editorPage__content__editor__input-title {\n        font-family: \"Noto Serif KR\", serif;\n        font-size: 2rem; }\n      .editorPage__content__editor__input:focus {\n        outline: none; }\n    .editorPage__content__editor__header__author {\n      display: flex;\n      flex-direction: row;\n      align-items: center;\n      margin-bottom: 1rem; }\n      .editorPage__content__editor__header__author__thumbnailImage {\n        margin-right: 1rem; }\n    .editorPage__content__editor__body {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      margin-top: 2rem; }\n      .editorPage__content__editor__body__input {\n        display: inline-block;\n        width: 45%;\n        font-size: 1.2rem;\n        min-height: 500px;\n        border: none;\n        resize: none; }\n        .editorPage__content__editor__body__input:empty:not(:focus):before {\n          content: attr(data-text);\n          color: #9b9b9b; }\n        .editorPage__content__editor__body__input:focus {\n          outline: none; }\n      .editorPage__content__editor__body__viewer {\n        display: inline-block;\n        width: 45%; }\n\n.react-tagsinput {\n  margin-top: 0.5rem; }\n  .react-tagsinput-input {\n    border: none;\n    font-size: 1rem; }\n    .react-tagsinput-input:focus {\n      outline: none; }\n  .react-tagsinput-tag {\n    color: #22d6a0;\n    margin-right: 0.5rem; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n.landingPage__content {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  padding: 0 2rem; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n.profilePage__content {\n  padding: 0 2rem;\n  padding-top: 80px;\n  padding-bottom: 10rem;\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n  .profilePage__content__profileHeader {\n    display: flex;\n    width: 960px;\n    margin-top: 10rem; }\n    .profilePage__content__profileHeader__thumbnailImage {\n      margin-right: 3rem; }\n    .profilePage__content__profileHeader__userInfo__name {\n      font-size: 2rem;\n      font-weight: bold; }\n    .profilePage__content__profileHeader__userInfo__username {\n      font-size: 1.5rem;\n      color: #9b9b9b; }\n    .profilePage__content__profileHeader__userInfo__bio {\n      margin-top: 0.5rem;\n      font-size: 1.2rem; }\n    .profilePage__content__profileHeader__userInfo__mainOrg {\n      display: flex;\n      align-items: center;\n      margin-top: 0.5rem;\n      font-size: 1.2rem; }\n      .profilePage__content__profileHeader__userInfo__mainOrg__thumbnail {\n        margin-right: 0.5rem; }\n    .profilePage__content__profileHeader__userInfo__otherOrgs {\n      display: flex;\n      align-items: center;\n      margin-top: 1rem; }\n      .profilePage__content__profileHeader__userInfo__otherOrgs__thumbnail {\n        margin-right: 0.5rem; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n.button {\n  color: #d6d8d8;\n  border: 1px solid #d6d8d8;\n  border-radius: 5px;\n  padding: 0.4rem 0.75rem;\n  transition: 0.3s;\n  cursor: pointer; }\n  .button i {\n    margin-right: 1rem; }\n  .button:hover {\n    border: 1px solid #22d6a0;\n    color: #22d6a0;\n    transition: 0.3s; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n.navigationBar {\n  position: fixed;\n  box-sizing: border-box;\n  width: 100%;\n  background: #ffffff;\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0 10rem;\n  height: 80px; }\n  .navigationBar__logo {\n    font-weight: 700;\n    font-size: 1.4rem;\n    color: #22d6a0; }\n  .navigationBar__items {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    list-style: none;\n    padding: 0; }\n    .navigationBar__items__item {\n      display: flex;\n      align-items: center;\n      margin-right: 1rem; }\n      .navigationBar__items__item > a {\n        display: flex;\n        align-items: center; }\n      .navigationBar__items__item-clickable {\n        display: inline-block;\n        padding: 0.25rem 0.5rem;\n        border-radius: 5px;\n        transition: 0.3s;\n        cursor: pointer; }\n        .navigationBar__items__item-clickable .xi-x {\n          margin-right: 1rem; }\n        .navigationBar__items__item-clickable:hover {\n          background: #e7e9e9;\n          transition: 0.3s; }\n      .navigationBar__items__item__button {\n        color: #d6d8d8;\n        border: 1px solid #d6d8d8;\n        border-radius: 5px;\n        padding: 0.4rem 0.75rem;\n        transition: 0.3s; }\n        .navigationBar__items__item__button:hover {\n          border: 1px solid #9b9b9b;\n          color: #9b9b9b;\n          transition: 0.3s; }\n      .navigationBar__items__item__thumbnailImage {\n        width: 32px;\n        height: 32px;\n        border-radius: 50%;\n        margin-right: 1rem; }\n      .navigationBar__items__item:last-child {\n        margin-right: 0; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n.thumbnailImage {\n  box-sizing: border-box;\n  border-radius: 50%;\n  border: 1px solid #d6d8d8; }\n\n/*\n* Author: @nayunhwan (github.com/nayunhwan)\n* Email: nayunhwan.dev@gmail.com\n*/\n.typingMessage {\n  display: inline-block;\n  font-size: 3rem; }\n  .typingMessage__title {\n    font-family: \"Noto Serif KR\", serif;\n    min-height: 139px; }\n  .typingMessage__subtitle {\n    margin-top: 2rem;\n    font-size: 1.5rem;\n    color: #5b5e6d; }\n    .typingMessage__subtitle__highlight {\n      font-weight: 700;\n      color: #22d6a0; }\n\nbody {\n  font-family: \"Noto Sans KR\", sans-serif;\n  color: #282828;\n  margin: 0 auto; }\n\na {\n  color: inherit;\n  text-decoration: none; }\n", ""]);
 
 /***/ }),
 /* 397 */
@@ -30876,6 +30876,11 @@
 	            _reactRouter.Route,
 	            { path: "/editor" },
 	            _react2.default.createElement(_reactRouter.IndexRoute, { component: _Pages.EditorPage })
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Route,
+	            { path: "/@nayunhwan" },
+	            _react2.default.createElement(_reactRouter.IndexRoute, { component: _Pages.ProfilePage })
 	          )
 	        )
 	      );
@@ -43957,21 +43962,25 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.LandingPage = exports.EditorPage = undefined;
+	exports.ProfilePage = exports.LandingPage = exports.EditorPage = undefined;
 	
 	var _EditorPage2 = __webpack_require__(599);
 	
 	var _EditorPage3 = _interopRequireDefault(_EditorPage2);
 	
-	var _LandingPage2 = __webpack_require__(1007);
+	var _LandingPage2 = __webpack_require__(1009);
 	
 	var _LandingPage3 = _interopRequireDefault(_LandingPage2);
+	
+	var _ProfilePage2 = __webpack_require__(1010);
+	
+	var _ProfilePage3 = _interopRequireDefault(_ProfilePage2);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.EditorPage = _EditorPage3.default; /*
 	                                           * Author: @nayunhwan (github.com/nayunhwan)
-	                                           * Email: nayunhwan.dev@mgail.com
+	                                           * Email: nayunhwan.dev@gmail.com
 	                                           */
 	
 	/* Default Page */
@@ -43979,6 +43988,7 @@
 	// export DefaultReduxPage from './_DefaultReduxPage/DefaultReduxPage.react';
 	
 	exports.LandingPage = _LandingPage3.default;
+	exports.ProfilePage = _ProfilePage3.default;
 
 /***/ }),
 /* 599 */
@@ -44050,7 +44060,7 @@
 	  };
 	};
 	
-	var clx = function (_Component) {
+	var EditorPage = function (_Component) {
 	  _inherits(EditorPage, _Component);
 	
 	  function EditorPage(props) {
@@ -44077,7 +44087,7 @@
 	      // console.log("markdownContent", markdownContent)
 	      // const html = this.converter.makeHtml(markdownContent);
 	      // console.log(html);
-	      var text = "\`\`\`js\nconst a = 1;\n\`\`\`";
+	      var text = "```js\nconst a = 1;\n```";
 	      var html = _this.converter.makeHtml(text);
 	      return {
 	        __html: html
@@ -44089,7 +44099,6 @@
 	      tags: [],
 	      tag: "",
 	      markdownContent: ""
-	
 	    };
 	    return _this;
 	  }
@@ -44112,7 +44121,11 @@
 	      return _react2.default.createElement(
 	        "div",
 	        { className: "editorPage__content__editor__header__author" },
-	        _react2.default.createElement("img", { className: "editorPage__content__editor__header__author__profileImage", src: imgUrl }),
+	        _react2.default.createElement(_Components.ThumbnailImage, {
+	          className: "editorPage__content__editor__header__author__thumbnailImage",
+	          src: imgUrl,
+	          size: 32
+	        }),
 	        _react2.default.createElement(
 	          "span",
 	          { className: "editorPage__content__editor__header__author__username" },
@@ -44191,10 +44204,10 @@
 	  return EditorPage;
 	}(_react.Component);
 	
-	clx.defaultProps = defaultProps;
-	clx.propTypes = propTypes;
+	EditorPage.defaultProps = defaultProps;
+	EditorPage.propTypes = propTypes;
 	
-	exports.default = clx = (0, _reactRedux.connect)(mapStateToProps)(clx);
+	exports.default = (0, _reactRedux.connect)(mapStateToProps)(EditorPage);
 
 /***/ }),
 /* 600 */
@@ -74067,7 +74080,7 @@
 	
 	function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; } /*
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                           * Author: @nayunhwan (github.com/nayunhwan)
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                           * Email: nayunhwan.dev@mgail.com
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                           * Email: nayunhwan.dev@gmail.com
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                           */
 	
 	function action() {
@@ -74167,7 +74180,7 @@
 	
 	function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; } /*
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                           * Author: @nayunhwan (github.com/nayunhwan)
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                           * Email: nayunhwan.dev@mgail.com
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                           * Email: nayunhwan.dev@gmail.com
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                           */
 
 /***/ }),
@@ -74183,7 +74196,7 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; /*
 	                                                                                                                                                                                                                                                                  * Author: @nayunhwan (github.com/nayunhwan)
-	                                                                                                                                                                                                                                                                  * Email: nayunhwan.dev@mgail.com
+	                                                                                                                                                                                                                                                                  * Email: nayunhwan.dev@gmail.com
 	                                                                                                                                                                                                                                                                  */
 	
 	var _isomorphicFetch = __webpack_require__(703);
@@ -74759,7 +74772,7 @@
 	});
 	/*
 	* Author: @nayunhwan (github.com/nayunhwan)
-	* Email: nayunhwan.dev@mgail.com
+	* Email: nayunhwan.dev@gmail.com
 	*/
 	
 	var ServerEndPoint = exports.ServerEndPoint = "http://localhost:3000/";
@@ -76286,12 +76299,12 @@
 /* 731 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.TypingMessage = exports.NavigationBar = exports.CodeRenderer = exports.Button = undefined;
+	exports.TypingMessage = exports.ThumbnailImage = exports.NavigationBar = exports.CodeRenderer = exports.Button = undefined;
 	
 	var _Button2 = __webpack_require__(732);
 	
@@ -76305,7 +76318,11 @@
 	
 	var _NavigationBar3 = _interopRequireDefault(_NavigationBar2);
 	
-	var _TypingMessage2 = __webpack_require__(1003);
+	var _ThumbnailImage2 = __webpack_require__(1004);
+	
+	var _ThumbnailImage3 = _interopRequireDefault(_ThumbnailImage2);
+	
+	var _TypingMessage2 = __webpack_require__(1005);
 	
 	var _TypingMessage3 = _interopRequireDefault(_TypingMessage2);
 	
@@ -76313,7 +76330,7 @@
 	
 	exports.Button = _Button3.default; /*
 	                                   * Author: @nayunhwan (github.com/nayunhwan)
-	                                   * Email: nayunhwan.dev@mgail.com
+	                                   * Email: nayunhwan.dev@gmail.com
 	                                   */
 	
 	// export DefaultComponent from './_DefaultComponent/DefaultComponent.react';
@@ -76322,6 +76339,7 @@
 	
 	exports.CodeRenderer = _CodeRenderer3.default;
 	exports.NavigationBar = _NavigationBar3.default;
+	exports.ThumbnailImage = _ThumbnailImage3.default;
 	exports.TypingMessage = _TypingMessage3.default;
 
 /***/ }),
@@ -76376,12 +76394,9 @@
 	
 	      return _react2.default.createElement(
 	        "div",
-	        {
-	          className: (0, _classnames2.default)("button", className),
-	          onClick: onClick
-	        },
+	        { className: (0, _classnames2.default)("button", className), onClick: onClick },
 	        icon && _react2.default.createElement("i", { className: icon }),
-	        this.props.text
+	        text
 	      );
 	    }
 	  }]);
@@ -104728,7 +104743,15 @@
 	
 	var _reactRouter = __webpack_require__(400);
 	
+	var _classnames = __webpack_require__(600);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
 	var _ = __webpack_require__(731);
+	
+	var _users = __webpack_require__(1003);
+	
+	var _users2 = _interopRequireDefault(_users);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -104741,7 +104764,7 @@
 	
 	var defaultProps = {
 	  isLogin: true,
-	  isPosting: true
+	  isPosting: false
 	};
 	var propTypes = {};
 	
@@ -104762,7 +104785,6 @@
 	          isPosting = _props.isPosting;
 	
 	
-	      var imgUrl = "https://avatars0.githubusercontent.com/u/7167731?s=460&v=4";
 	      if (isPosting) {
 	        return _react2.default.createElement(
 	          "ul",
@@ -104770,10 +104792,7 @@
 	          _react2.default.createElement(
 	            "li",
 	            { className: "navigationBar__items__item" },
-	            _react2.default.createElement(_.Button, {
-	              text: "Commit Your Post",
-	              icon: "xi-merge xi-x"
-	            })
+	            _react2.default.createElement(_.Button, { text: "Commit Your Post", icon: "xi-merge xi-x" })
 	          )
 	        );
 	      }
@@ -104783,34 +104802,37 @@
 	          { className: "navigationBar__items" },
 	          _react2.default.createElement(
 	            "li",
-	            { className: "navigationBar__items__item" },
+	            {
+	              className: (0, _classnames2.default)("navigationBar__items__item", "navigationBar__items__item-clickable")
+	            },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
 	              { to: "/editor" },
+	              _react2.default.createElement("i", { className: "xi-pen-o xi-x" }),
 	              _react2.default.createElement(
 	                "span",
-	                { className: "navigationBar__items__item-clickAble" },
-	                _react2.default.createElement("i", { className: "xi-pen-o xi-x" }),
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  "Write Post"
-	                )
+	                null,
+	                "Write Post"
 	              )
 	            )
 	          ),
 	          _react2.default.createElement(
 	            "li",
-	            { className: "navigationBar__items__item" },
-	            _react2.default.createElement("img", { className: "navigationBar__items__item__profileImage", src: imgUrl })
-	          ),
-	          _react2.default.createElement(
-	            "li",
-	            { className: "navigationBar__items__item" },
+	            {
+	              className: (0, _classnames2.default)("navigationBar__items__item", "navigationBar__items__item-clickable")
+	            },
 	            _react2.default.createElement(
-	              "div",
-	              { className: "navigationBar__items__item__username" },
-	              "nayunhwan"
+	              _reactRouter.Link,
+	              { to: "/@nayunhwan" },
+	              _react2.default.createElement("img", {
+	                className: "navigationBar__items__item__thumbnailImage",
+	                src: _users2.default.data[0].profile_img
+	              }),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "navigationBar__items__item__username" },
+	                _users2.default.data[0].username
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -104873,6 +104895,12 @@
 
 /***/ }),
 /* 1003 */
+/***/ (function(module, exports) {
+
+	module.exports = {"data":[{"id":1,"name":"Yunhwan Na","username":"nayunhwan","profile_img":"https://avatars0.githubusercontent.com/u/7167731?s=460&v=4","bio":"Code Designer","github":"nayunhwan","created_at":"2018-03-06 21:59:59","follower_cnt":"4548","following_cnt":"324","organizations":[{"id":1,"name":"Samsung Software Membership","isMain":false,"thumbnail_img":"https://avatars0.githubusercontent.com/u/16572601?s=400&u=4d6a46a413b7c599e6fa267ed6703f53e04391d7&v=4"},{"id":2,"name":"Hanyang University","isMain":false,"thumbnail_img":"https://avatars0.githubusercontent.com/u/16876441?s=400&u=046609fa91810e13c6d96e0e97b5cbcf09c602de&v=4"},{"id":3,"name":"exitsoft","isMain":true,"thumbnail_img":"https://avatars1.githubusercontent.com/u/24725492?s=400&u=8493576dd6326c8633b944171ef4cf067987c9bd&v=4"},{"id":4,"name":"Toss","isMain":false,"thumbnail_img":"https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/22549584_1649914891732998_1138931635421002720_n.png?oh=261306ab26d15575e924909a56a79021&oe=5B488960"},{"id":5,"name":"Google","isMain":false,"thumbnail_img":"https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/13173814_222691051445911_8993445627535868298_n.png?oh=1da51aa95db806ceaeff8cbe06cf62a7&oe=5B0822DA"},{"id":6,"name":"IBM","isMain":false,"thumbnail_img":"https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18892917_1384844641595973_5139187292592270242_n.jpg?oh=bef850ceec7465dea2331eca37973607&oe=5B3B0114"},{"id":7,"name":"Kakao","isMain":false,"thumbnail_img":"https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/21752141_1236712433100099_4975115846151284576_n.png?oh=80cda8aa670afd58c2e288f61659a0a1&oe=5B0DDA26"},{"id":8,"name":"Naver","isMain":false,"thumbnail_img":"https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/23172450_1175959155871071_4543205464514719133_n.png?oh=c1668a42ae024a97f9713390f0d525c6&oe=5B3E2885"}]},{"id":2,"name":"Jeewoo Yoon","username":"yoonjeewoo","profile_img":"https://avatars1.githubusercontent.com/u/13073533?s=460&v=4","bio":"exitsoft Back-end Engineer","github":"yoonjeewoo","created_at":"2018-03-07 21:59:59","follower_cnt":"199","following_cnt":"324","organizations":[]}]}
+
+/***/ }),
+/* 1004 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -104887,11 +104915,77 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactTypist = __webpack_require__(1004);
+	var _classnames = __webpack_require__(600);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // This Component is Skeleton of React Structure for Web Development
+	// If you want to make other Component, Copy and Refactor this Component.
+	
+	var defaultProps = {};
+	var propTypes = {};
+	
+	var ThumbnailImage = function (_Component) {
+	  _inherits(ThumbnailImage, _Component);
+	
+	  function ThumbnailImage(props) {
+	    _classCallCheck(this, ThumbnailImage);
+	
+	    return _possibleConstructorReturn(this, (ThumbnailImage.__proto__ || Object.getPrototypeOf(ThumbnailImage)).call(this, props));
+	  }
+	
+	  _createClass(ThumbnailImage, [{
+	    key: "render",
+	    value: function render() {
+	      var _props = this.props,
+	          className = _props.className,
+	          src = _props.src,
+	          size = _props.size;
+	
+	      return _react2.default.createElement("img", {
+	        className: (0, _classnames2.default)("thumbnailImage", className),
+	        src: src,
+	        width: size,
+	        height: size
+	      });
+	    }
+	  }]);
+	
+	  return ThumbnailImage;
+	}(_react.Component);
+	
+	ThumbnailImage.defaultProps = defaultProps;
+	ThumbnailImage.propTypes = propTypes;
+	
+	exports.default = ThumbnailImage;
+
+/***/ }),
+/* 1005 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(328);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactTypist = __webpack_require__(1006);
 	
 	var _reactTypist2 = _interopRequireDefault(_reactTypist);
 	
-	__webpack_require__(1005);
+	__webpack_require__(1007);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -104962,7 +105056,7 @@
 	exports.default = TypingMessage;
 
 /***/ }),
-/* 1004 */
+/* 1006 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {module.exports =
@@ -106568,13 +106662,13 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(329)))
 
 /***/ }),
-/* 1005 */
+/* 1007 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(1006);
+	var content = __webpack_require__(1008);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(398)(content, {});
@@ -106594,14 +106688,14 @@
 	}
 
 /***/ }),
-/* 1006 */
+/* 1008 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(397)();
 	exports.push([module.id, ".Typist .Cursor {\n  display: inline-block; }\n\n.Typist .Cursor--blinking {\n  opacity: 1;\n  animation: blink 1s linear infinite; }\n\n@keyframes blink {\n  0% {\n    opacity: 1; }\n  50% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n", ""]);
 
 /***/ }),
-/* 1007 */
+/* 1009 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -106644,7 +106738,7 @@
 	  };
 	};
 	
-	var clx = function (_Component) {
+	var LandingPage = function (_Component) {
 	  _inherits(LandingPage, _Component);
 	
 	  function LandingPage(props) {
@@ -106681,10 +106775,159 @@
 	  return LandingPage;
 	}(_react.Component);
 	
-	clx.defaultProps = defaultProps;
-	clx.propTypes = propTypes;
+	LandingPage.defaultProps = defaultProps;
+	LandingPage.propTypes = propTypes;
 	
-	exports.default = clx = (0, _reactRedux.connect)(mapStateToProps)(clx);
+	exports.default = (0, _reactRedux.connect)(mapStateToProps)(LandingPage);
+
+/***/ }),
+/* 1010 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(328);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRedux = __webpack_require__(381);
+	
+	var _DefaultActionCreator = __webpack_require__(700);
+	
+	var DefaultActionCreator = _interopRequireWildcard(_DefaultActionCreator);
+	
+	var _users = __webpack_require__(1003);
+	
+	var _users2 = _interopRequireDefault(_users);
+	
+	var _Components = __webpack_require__(731);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // This Page is Skeleton of React Structure for Web Development
+	// If you want to make other page, Copy and Refactor this page.
+	
+	var defaultProps = {};
+	var propTypes = {};
+	
+	var mapStateToProps = function mapStateToProps(state) {
+	  return {
+	    actionResult: state.reducer.actionResult
+	  };
+	};
+	
+	var ProfilePage = function (_Component) {
+	  _inherits(ProfilePage, _Component);
+	
+	  function ProfilePage(props) {
+	    _classCallCheck(this, ProfilePage);
+	
+	    return _possibleConstructorReturn(this, (ProfilePage.__proto__ || Object.getPrototypeOf(ProfilePage)).call(this, props));
+	  }
+	
+	  _createClass(ProfilePage, [{
+	    key: "componentDidMount",
+	    value: function componentDidMount() {
+	      this.props.dispatch(DefaultActionCreator.action());
+	    }
+	  }, {
+	    key: "render",
+	    value: function render() {
+	      var user = _users2.default.data[0];
+	      var mainOrg = user.organizations.filter(function (org) {
+	        return org.isMain;
+	      })[0];
+	
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "profilePage" },
+	        _react2.default.createElement(
+	          "header",
+	          null,
+	          _react2.default.createElement(_Components.NavigationBar, null)
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "profilePage__content" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "profilePage__content__profileHeader" },
+	            _react2.default.createElement(_Components.ThumbnailImage, {
+	              className: "profilePage__content__profileHeader__thumbnailImage",
+	              src: user.profile_img,
+	              size: 128
+	            }),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "profilePage__content__profileHeader__userInfo" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "profilePage__content__profileHeader__userInfo__name" },
+	                user.name
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "profilePage__content__profileHeader__userInfo__username" },
+	                "@" + user.username
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "profilePage__content__profileHeader__userInfo__bio" },
+	                user.bio
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "profilePage__content__profileHeader__userInfo__mainOrg" },
+	                _react2.default.createElement(_Components.ThumbnailImage, {
+	                  className: "profilePage__content__profileHeader__userInfo__mainOrg__thumbnail",
+	                  src: mainOrg.thumbnail_img,
+	                  size: 42
+	                }),
+	                _react2.default.createElement(
+	                  "span",
+	                  null,
+	                  mainOrg.name
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "profilePage__content__profileHeader__userInfo__otherOrgs" },
+	                user.organizations.filter(function (org) {
+	                  return !org.isMain;
+	                }).map(function (org) {
+	                  return _react2.default.createElement(_Components.ThumbnailImage, {
+	                    className: "profilePage__content__profileHeader__userInfo__otherOrgs__thumbnail",
+	                    src: org.thumbnail_img,
+	                    size: 32
+	                  });
+	                })
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return ProfilePage;
+	}(_react.Component);
+	
+	ProfilePage.defaultProps = defaultProps;
+	ProfilePage.propTypes = propTypes;
+	
+	exports.default = (0, _reactRedux.connect)(mapStateToProps)(ProfilePage);
 
 /***/ })
 /******/ ]);
